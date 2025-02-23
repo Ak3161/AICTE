@@ -1,0 +1,55 @@
+.header-box {
+    background-color: #2C6E49; /* Dull Sea Green */
+    height: 60px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    width: auto;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.company-name {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.nav-right {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-right button {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    padding: 10px 15px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.nav-right button.active {
+    background-color: rgba(255, 255, 255, 0.6); /* Darkened when active */
+    color: black;
+}
+
+.nav-right button:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
