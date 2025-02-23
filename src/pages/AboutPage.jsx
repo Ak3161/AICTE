@@ -23,7 +23,7 @@ const AboutPage = () => {
             </ul>
             <h2>Contact Us</h2>
             <p>
-                Have questions? Reach out to us at <a href="mailto:support@zidio.com">support@ExpensifyPro.com</a>.
+                Have questions? Reach out to us at <a href="mailto:support@expensify.com">support@ExpensifyPro.com</a>.
             </p>
         </div>
     );
